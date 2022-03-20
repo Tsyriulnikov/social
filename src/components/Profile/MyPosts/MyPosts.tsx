@@ -5,11 +5,11 @@ const MyPosts: React.FC<any> = (props: any) => {
     return (
         <div>
             <Post message={"Hi! How are you"}
-                  avatar={"https://souzmult.ru/api/images/character-5d75f097557b2.svg"}/>
+                  avatar={"https://multsforkids.ru/data/uploads/personaji/ejik/ejik-kartinki-1.jpg"}/>
             <Post message={"Como esta?"}
-                  avatar={"https://souzmult.ru/api/images/character-5d75f05ff03bb.svg"}/>
+                  avatar={"https://multsforkids.ru/data/uploads/personaji/ejik/ejik-kartinki-1.jpg"}/>
             <Post message={"By! Will see you"}
-                  avatar={"https://img.kupigolos.ru/hero/5f2d1b5594549.png?p=bh&s=47ca66a55a020d25fcec96a0f7b02b71"}/>
+                  avatar={"https://multsforkids.ru/data/uploads/personaji/ejik/ejik-kartinki-1.jpg"}/>
         </div>
     )
 }
