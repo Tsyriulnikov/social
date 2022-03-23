@@ -1,13 +1,20 @@
 import React from "react";
 import s from "../Dialogs.module.css";
 
-type MessagePropsType = {
+type UserMessageType = {
     message:string
 }
-const Message:React.FC<MessagePropsType>=({message})=>{
+type MessagePropsType = {
+    userMessages:Array<UserMessageType>
+}
+
+const Message:React.FC<MessagePropsType>=({userMessages})=>{
     return(
         <div className={s.message}>
-            {message}
+            <ul>
+                {userMessages.map((el)=><li>{el.message}</li>)}
+            </ul>
+
         </div>
     )
 }
