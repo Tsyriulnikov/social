@@ -5,7 +5,7 @@ import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 const Profile: React.FC<any> = (props: any) => {
     return (
-        <div>
+        <div className={s.profile}>
             <ProfileInfo/>
             <MyPosts/>
         </div>

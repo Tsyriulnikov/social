@@ -1,9 +1,13 @@
 .dialogs {
     display: grid;
     grid-template-columns: 2fr 10fr;
+    grid-template-areas:
+    "dialogsitem messages";
+
 }
 
 .dialogsItems {
+grid-area: dialogsitem;
     padding: 10px;
     color: white;
 }
@@ -13,6 +17,7 @@
 }
 
 .messages {
+    grid-area: messages;
     padding: 10px;
 }
 
